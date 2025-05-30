@@ -7,8 +7,8 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 - Docker – Containerization platform
 - GitHub – Source code repository
 # 📦 Features
-Automated build and code quality checks via Jenkins
-Code analysis using SonarQube
-Dockerized application deployment
-Real-time integration of all tools in a single pipeline
-Clean, maintainable, and production-ready setup
+- Automated build and code quality checks via Jenkins
+- Code analysis using SonarQube
+- Dockerized application deployment
+- Real-time integration of all tools in a single pipeline
+- Clean, maintainable, and production-ready setup
