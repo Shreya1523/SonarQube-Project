@@ -25,8 +25,8 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 3. sudo apt update
 4. Lets setup Jenkins
 5. SonarQube Setup
-- Lets setup sonar server using Docker (this is the simplest way)
-   - sudo apt install docker.io
+   - Lets setup sonar server using Docker (this is the simplest way)
+     - sudo apt install docker.io
 - Lets give permissions to run docker
    - sudo chmod 666 /var/run/docker.sock
 - Lets run docker commands to install SonarQube
