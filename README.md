@@ -19,5 +19,6 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 - Jenkins (with required plugins)
 - SonarQube (running locally or remotely)
 - Git
-# Steps : Launch Ubuntu VM with instance type as t2.large, AMI: 24.04, Storage: 25 GB, No. of instances: 1
+# Steps 
+1. Launch Ubuntu VM with instance type as t2.large, AMI: 24.04, Storage: 25 GB, No. of instances: 1
 
