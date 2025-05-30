@@ -21,4 +21,6 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 - Git
 # Steps 
 1. Launch Ubuntu VM with instance type as t2.large, AMI: 24.04, Storage: 25 GB, No. of instances: 1
+2. Connect to the VM
+3. sudo apt update
 
