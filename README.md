@@ -24,6 +24,30 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 2. Connect to the VM
 3. sudo apt update
 4. Lets setup Jenkins
+   - sudo apt install openjdk-17-jre-headless -y
+   - sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+     https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+     echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+     https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+     /etc/apt/sources.list.d/jenkins.list > /dev/null
+     sudo apt-get update
+     sudo apt-get install jenkins -y
+
+vi j.sh
+<Paste the above commands>
+
+esc --- :wq
+
+Lets give the permission to j.sh file to execute; sudo chmod +x j.sh
+ls --- you can see 'j.sh' in green colour
+
+Lets execute the j.sh file; ./j.sh
+with this Jenkins installation is done.
+Note that, Jenkins will run on 8080 port number by default.
+
+Open Port No. 8080 for the VM
+
+Access Jenkins; <publicip>:8080 ---> Setup the Jenkins dashboard by following the known steps
 5. SonarQube Setup
    - Lets setup sonar server using Docker (this is the simplest way)
      - sudo apt install docker.io
