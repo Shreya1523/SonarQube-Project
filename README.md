@@ -27,20 +27,20 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 5. SonarQube Setup
    - Lets setup sonar server using Docker (this is the simplest way)
      - sudo apt install docker.io
-- Lets give permissions to run docker
-   - sudo chmod 666 /var/run/docker.sock
-- Lets run docker commands to install SonarQube
-   - docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
-   - docker ps
-- You can see SonarQube container status
-   - Open Port No. 9000 in the SG of VM
-- Access SonarQube;
-   - <publicip>:9000 --- You can see the SonarQube console
-   - Click on 'Home'
-   - Default login name and password is 'admin'
-   - Set new password
-   - You can see the homepage of SonarQube 
-   - With this Jenkins and SonarQube setup is ready
+   - Lets give permissions to run docker
+     - sudo chmod 666 /var/run/docker.sock
+   - Lets run docker commands to install SonarQube
+     - docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
+     - docker ps
+   - You can see SonarQube container status
+     - Open Port No. 9000 in the SG of VM
+   - Access SonarQube;
+     - <publicip>:9000 --- You can see the SonarQube console
+     - Click on 'Home'
+     - Default login name and password is 'admin'
+     - Set new password
+     - You can see the homepage of SonarQube 
+     - With this Jenkins and SonarQube setup is ready
 6. Jenkins Pipeline Job for SonarQube Analysis
    - Jenkins Dashboard ---> Manage Jenkins ---> Plugins ---> Available Plugins ---> Search for 'SonarQube Scanner' and select it. Also search for 'Eclipse Temurin installer' and 'Pipeline Stage View" and select them ---> Install ---> Click on 'Go back to the top of page'
 
