@@ -24,8 +24,8 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 2. Connect to the VM
 3. sudo apt update
 4. Lets setup Jenkins
-   - sudo apt install openjdk-17-jre-headless -y
-   - sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+   - sudo apt install openjdk-17-jre-headless -y.
+     sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
    - https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
    - echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
    - https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
