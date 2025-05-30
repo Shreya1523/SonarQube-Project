@@ -66,4 +66,19 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
    Similarly configure dockerhub credentials with id as "dockerhub-credentials" with kind as "username with password"
 
    - Manage Jenkins --- System --- Scroll down to 'SonarQube servers' --- Click on 'Add SonarQube' --- Name: sonar-server --- ServerURL: <PublicIPofSQinstalledVM>:9000 --- Server Authentication Token: select 'sonar-token' --- Apply --- Save
+7. Create a new Pipeline Job and use the Jenkinsfile
+8. Run the Pipeline
+   - Trigger the Jenkins pipeline manually
+   - After completion:
+     - check code quality in SonarQube Dashboard
+     - Access your application at: http://localhost:8080
+# 📊 SonarQube Dashboard
+- SonarQube will display metrics like:
+- Code Smells
+- Bugs
+- Vulnerabilities
+- Code Coverage
+- Technical Debt
+
+
 
