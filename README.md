@@ -12,3 +12,13 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 - Dockerized application deployment
 - Real-time integration of all tools in a single pipeline
 - Clean, maintainable, and production-ready setup
+# 🛠️ Prerequisites
+Before you start, ensure the following are installed and configured:
+
+- Java (JDK 8 or higher)
+- Maven
+- Docker & Docker Compose
+- Jenkins (with required plugins)
+- SonarQube (running locally or remotely)
+- Git
+
