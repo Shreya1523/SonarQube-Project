@@ -35,7 +35,7 @@ This project is a One-Stop Real-Time Solution for performing Code Quality Analys
 
    - Manage Jenkins --- Security --- Credentials --- Click on 'global' --- Click on 'Add Credentials' --- Kind: Secret text, Scope: Global, Secret: <Paste the token copied from SonarQube console>, ID: sonar-token, Description: sonar-token --- Create
 
-Similarly configure dockerhub credentials with id as "dockerhub-credentials" with kind as "username with password"
+   Similarly configure dockerhub credentials with id as "dockerhub-credentials" with kind as "username with password"
 
    - Manage Jenkins --- System --- Scroll down to 'SonarQube servers' --- Click on 'Add SonarQube' --- Name: sonar-server --- ServerURL: <PublicIPofSQinstalledVM>:9000 --- Server Authentication Token: select 'sonar-token' --- Apply --- Save
 
